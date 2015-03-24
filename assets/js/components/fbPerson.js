@@ -8,13 +8,15 @@ var FbPerson = React.createClass({
   return (
     <div className="person">
         <img src={fbId[myId].imagePath} style={imgWidth} />
-        <a href={fbLink}>
-            {fbId[myId].name}
-        </a>
-         分享了1張
-        <a href={fbId[myId].photoSet[0]}>
-            照片
-        </a>
+        <div className="personInfo">
+            <a href={fbLink}>
+                {fbId[myId].name}
+            </a>
+             分享了1張
+            <a href={fbId[myId].photoSet[0]}>
+                照片
+            </a>
+        </div>
     </div>
     );
   }  

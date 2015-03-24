@@ -21,7 +21,7 @@ var MessageBox = React.createClass({
     var myId = this.props.id;
     
     return (
-      <div>
+      <div className="leaveMessage">
         <img src={fbId[myId].imagePath} style={imgWidth}/>
         <input
           className="message"

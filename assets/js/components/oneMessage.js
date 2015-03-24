@@ -8,7 +8,9 @@ var OneMessage = React.createClass({
     return (
       <div className="oneMessage">
         <img src={fbId[myId].imagePath} style={imgWidth}/>
-        {fbId[myId].name} {this.props.content}
+        <div className="oneMessageContent">
+            {fbId[myId].name} {this.props.content}
+        </div>
       </div>
       );
   }

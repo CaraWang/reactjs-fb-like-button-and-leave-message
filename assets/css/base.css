@@ -4,6 +4,10 @@ a {
   text-decoration: none;
 }
 
+i {
+    margin-right: 10px;
+}
+
 .onePost {
     width: 500px;
     margin-left: 30%; 
@@ -13,24 +17,25 @@ a {
 }
 
 .person {
-    vertical-align: middle;
     padding-bottom: 10px;
 }
 
-.postContent {
-    padding: 15px
+.person img {
+    vertical-align: top;
+}
+
+.personInfo {
+    display: inline-block;
+    padding-left: 10px;
 }
 
 .postContent {
+    padding: 15px;
     color: #6d84b4;
 }
 
 .postContent img {
     width: 100%;
-}
-
-i {
-    margin-right: 10px;
 }
 
 .messageDiv {
@@ -42,14 +47,31 @@ i {
     border-bottom: 1px solid;
     border-color: #d0d1d5;
     padding-bottom: 5px;
-    margin-bottom: 5px;
+    margin-bottom: 10px;
 }
 
 .oneMessage {
     padding-bottom: 10px;
 }
 
-.message {
+.oneMessage img {
+    display: inline;
+    vertical-align: top;
+    padding-right:10px;
+}
+
+.oneMessageContent {
+    display: inline;
+}
+
+.leaveMessage img {
+    vertical-align:middle;
+    height: 32px;
+}
+
+input {
     width: 425px;
+    height: 32px;
+    vertical-align:middle;
     margin-left: 5px;
 }
