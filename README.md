@@ -1,12 +1,19 @@
 # Learing Reactjs by building the like button and message box on facebook.
 
-You will practice some reactjs skill in this project...
+The main features in this project is...
 ---
 
-- Concept of component in reactjs.
-- Passing parameter from father component to child component by `this.props.xxx`.
+- Press the `like` button to trigger the action of counting like.
+- Press the `leave message` button to trigger the action of focusing message box.
+- Leave message to the post.
+
+You will practice some reactjs skills in this project...
+---
+
+- The component concept in reactjs.
+- Pass parameter from father component to child component by `this.props.xxx`.
 - Trigger action in child component by `ref` and `this.refs.xxx`.
-- Some lifecycle function of a component in reactjs.
+- Lifecycle of a component in reactjs.
 
 (The `xxx` above means you can name it any name you want.)
 
